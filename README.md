@@ -5,13 +5,13 @@
 
 A **production-grade CLI-based job queue system** written in Python. Manage background jobs with multiple worker processes, automatic retry with exponential backoff, and a Dead Letter Queue for permanently failed jobs.
 
-#### 2  **Python 3.8+** 
+#### 1  **Python 3.8+** 
 ```bash
 python --version
 # Should show: Python 3.8 or higher
 ```
 
-#### 3️ **Install Dependencies** 
+#### 2 **Install Dependencies** 
 ```bash
 pip install -r requirements.txt
 ```
@@ -19,20 +19,6 @@ pip install -r requirements.txt
 **That's it! Nothing else is required.** 
 
 ---
-
-## WHAT'S NOT REQUIRED
-
-These files are **optional helpers** - system works fine without them:
-
-| File | Type | Why Optional |
-|------|------|-------------|
-| `setup.ps1` | Setup script | Manual install works |
-| `setup.sh` | Setup script | Manual install works |
-| `queuectl.bat` | Windows wrapper | Use `python queuectl.py` |
-| `RUN_FULL_DEMO.ps1` | Demo automation | Run commands manually |
-| All demo scripts | Testing | Not required to run |
-| Documentation files | Help docs | README.md is enough |
-
 ---
 
 ## Features
