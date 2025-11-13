@@ -5,23 +5,6 @@
 
 A **production-grade CLI-based job queue system** written in Python. Manage background jobs with multiple worker processes, automatic retry with exponential backoff, and a Dead Letter Queue for permanently failed jobs.
 
----
-
-##  WHAT'S REQUIRED
-
-### **To Run QueueCTL, You Need:**
-
-#### 1️ **19 Core Source Files** 
-```
-queuectl.py                          (Main entry point - 127 lines)
-requirements.txt                     (Dependencies)
-src/cli/commands/                    (6 command files)
-src/core/                            (3 core logic files)
-src/storage/job_store.py             (Data persistence)
-src/worker/pool.py                   (Worker management)
-All __init__.py files               (Package markers)
-```
-
 #### 2  **Python 3.8+** 
 ```bash
 python --version
